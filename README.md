@@ -1,7 +1,7 @@
 # Set of JMH-benchmarks to tests alternatives for ThreadLocal
 
 This is a set of JMH-benchmarks to test various types of alternatives for ThreadLocal within a web-application.
-These alternatives are mainly inteded for very quick use of slow-to-create objects like NumberFormat.
+These alternatives are mainly intended for very quick use of slow-to-create objects like NumberFormat.
 
 If you want to test it yourself, clone this repository and use maven to prepare your environment.
   `mvn install` should do the trick. Note: some of the code requires Java 1.8.
